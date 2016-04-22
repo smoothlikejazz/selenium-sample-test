@@ -1,0 +1,26 @@
+{
+  "name": "selenium-sample-test",
+  "version": "1.0.0",
+  "description": "Testing Harness For Akana",
+  "main": "nightwatch.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "nightwatch.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smoothlikejazz/selenium-sample-test.git"
+  },
+  "author": "jjackson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smoothlikejazz/selenium-sample-test/issues"
+  },
+  "homepage": "https://github.com/smoothlikejazz/selenium-sample-test#readme",
+  "devDependencies": {
+    "nightwatch": "^0.8.18",
+    "nightwatch-custom-commands-assertions": "^1.0.5"
+  }
+}
