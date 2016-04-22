@@ -15,6 +15,8 @@ node nightwatch.js
 # Run Specific Test
 At times you may want to run individual tests instead of all the tests
 ```
+node nightwatch.js --test tests/api/create_api_test.js 
+
 node nightwatch.js --test tests/akana_login/akana_login_test.js --testcase "akana login"
 ```
 
